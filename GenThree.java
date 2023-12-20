@@ -4,7 +4,7 @@
  */
 public class GenThree{
     public static void main(String[] args) {
-		//creats two given numbers bu the user
+		//creates two given numbers by the user
         	int num1 = Integer.parseInt(args[0]); 
 		int num2 = Integer.parseInt(args[1]); 
 		
