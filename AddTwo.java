@@ -8,6 +8,6 @@ public class AddTwo {
 		 int num2 = Integer.parseInt(args[1]);
 		 
 		 //prints equation that add the two given numbers and its value
-		 System.out.println(num1 + " + " + num2 + " = " +(num1 + num2));
+		 System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
     }
 }
