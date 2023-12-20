@@ -4,7 +4,7 @@
  */
 public class GenThree{
     public static void main(String[] args) {
-		//creates two given numbers bu the user
+		//creats two given numbers bu the user
         int num1 = Integer.parseInt(args[0]); 
 		int num2 = Integer.parseInt(args[1]); 
 		
@@ -13,9 +13,9 @@ public class GenThree{
 		int max = Math.max(num1, num2);
 		
 		//generates three random numbers
-		int random1 = (int)(Math.random() * (max - min)) + min;
-		int random2 = (int)(Math.random() * (max - min)) + min;
-		int random3 = (int)(Math.random() * (max - min)) + min;
+		int random1 = (int)((Math.random() * (max - min)) + min);
+		int random2 = (int)((Math.random() * (max - min)) + min);
+		int random3 = (int)((Math.random() * (max - min)) + min);
 		
 		//prints the three random numbers
 		System.out.println(random1);
