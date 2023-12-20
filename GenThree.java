@@ -2,7 +2,7 @@
  * Generates three random integers, each in a given range [a,b),
  * prints them, and then prints the minimal number that was generated.
  */
-public class Gen3{
+public class GenThree{
     public static void main(String[] args) {
 		//creats two given numbers bu the user
         int num1 = Integer.parseInt(args[0]); 
