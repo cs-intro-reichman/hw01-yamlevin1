@@ -5,7 +5,7 @@
  */ 
 public class Triangle{
 	public static void main(String[] args) {
-		//creats three numbers that given by the user
+		//creates three numbers that given by the user
 		int num1 = Integer.parseInt(args[0]);
 		int num2 = Integer.parseInt(args[1]);
 		int num3 = Integer.parseInt(args[2]);

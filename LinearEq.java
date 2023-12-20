@@ -6,7 +6,7 @@
  */
 public class LinearEq{
 	public static void main(String[] args) {
-		//creats three numbers that given by the user
+		//creates three numbers that given by the user
 		double a = Double.parseDouble(args[0]);
 		double b = Double.parseDouble(args[1]);
 		double c = Double.parseDouble(args[2]);

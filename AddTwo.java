@@ -3,7 +3,7 @@
  */
 public class AddTwo {
     public static void main(String[] args) {
-		 //creats two numbers that given by the user
+		 //creates two numbers that given by the user
 		 int num1 = Integer.parseInt(args[0]);   
 		 int num2 = Integer.parseInt(args[1]);
 		 
