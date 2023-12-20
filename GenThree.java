@@ -5,7 +5,7 @@
 public class GenThree{
     public static void main(String[] args) {
 		//creats two given numbers bu the user
-        int num1 = Integer.parseInt(args[0]); 
+        	int num1 = Integer.parseInt(args[0]); 
 		int num2 = Integer.parseInt(args[1]); 
 		
 		//defines who is the min number and who is the max number
