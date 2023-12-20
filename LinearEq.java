@@ -4,6 +4,18 @@
  * computes x, and prints the result.
  * Treats the three arguments as well as the computed value as double values
  */
-public class LinearEq {
-	// Put your code here
+public class LinearEq{
+	public static void main(String[] args) {
+		//creats three numbers that given by the user
+		double a = Double.parseDouble(args[0]);
+		double b = Double.parseDouble(args[1]);
+		double c = Double.parseDouble(args[2]);
+		
+		//compute of x according to the three numbers given
+		double x = (c - b) / a;
+		
+		//prints the equation and the value of x
+		System.out.println(a + " * x + " + b + " = " + c);
+		System.out.println("x = " + x);
+	}
 }
